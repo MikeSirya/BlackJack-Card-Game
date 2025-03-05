@@ -1,0 +1,46 @@
+body {
+  background-image: url('bground/blackJack.jpg'); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 800px; /* determines the positioning of the background image */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+
+.container{
+  margin: 0 auto;
+  color: yellow;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: oblique;
+  
+  
+}
+.CARDSECTION{
+  display: flex;
+  padding: 10px;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+  text-align: center;
+  flex:1;
+}
+img{
+  width: 100px;
+  height: 100px;
+}
+
+.BUTTONS{
+    display: inline;
+    padding: 5px;
+    flex-wrap:wrap;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#StartGame { font-size: 25px; width: 5%} 
+#ContinueGame {font-size: 25px; width:9%} 
+#stopGame {font-size: 25px; width:7%}  
+#Restart {font-size: 25px; width:7%} 
+
+
+
